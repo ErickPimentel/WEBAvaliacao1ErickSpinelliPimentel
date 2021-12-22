@@ -23,7 +23,7 @@
         /*
         /*Page Loader active
           ========================================================*/
-        $('#preloader').fadeOut();
+        /*$('#preloader').fadeOut();
 
         // Sticky Nav
         $(window).on('scroll', function() {
@@ -32,7 +32,7 @@
             } else {
                 $('.scrolling-navbar').removeClass('top-nav-collapse');
             }
-        });
+        });*/
 
         /* slicknav mobile menu active  */
         $('.mobile-menu').slicknav({
@@ -47,19 +47,21 @@
 
         /* WOW Scroll Spy
     ========================================================*/
+        /*
         var wow = new WOW({
             //disabled for mobile
             mobile: false
         });
 
         wow.init();
-
+*/
         /* Nivo Lightbox 
         ========================================================*/
+        /*
         $('.lightbox').nivoLightbox({
             effect: 'fadeScale',
             keyboardNav: true,
-        });
+        });*/
 
         /* Counter
         ========================================================*/
@@ -71,6 +73,7 @@
 
         /* Back Top Link active
         ========================================================*/
+        /*
         var offset = 200;
         var duration = 500;
         $(window).scroll(function() {
@@ -87,8 +90,7 @@
                 scrollTop: 0
             }, 600);
             return false;
-        });
-
+        });*/
 
 
     });
